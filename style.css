@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    font-family: sans-serif;
+    background-image: url('IMG_9564.jpeg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
+.logo {
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #d22;
+    font-weight: bold;
+}
+main {
+    /* No specific styles for home/about/contact main */
+}
+.menu-page {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.menu-page h1 {
+    margin-bottom: 20px;
+}
+.menu-page ul {
+    list-style: none;
+    padding: 0;
+}
+.menu-page ul li {
+    margin: 8px 0;
+    font-size: 1.1em;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Centered main content for Contact page */
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 140px); /* adjust for header/footer height */
+    text-align: center;
+}
+
+
+/* Social link in footer */
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.social-link a {
+    text-decoration: none;
+    color: #d22;
+    font-weight: bold;
+}
+.social-link i {
+    margin-right: 8px;
+}
+
+
+/* Footer newsletter */
+.newsletter {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.newsletter h2 {
+    margin-bottom: 10px;
+}
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.newsletter input {
+    padding: 10px;
+    font-size: 1em;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.newsletter button {
+    padding: 10px 20px;
+    background: #d22;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Social icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.social-icons a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+/* Black background theme */
+body {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+header, .menu-page, .newsletter, .social-icons a {
+    background-color: #111 !important;
+}
+nav ul li a {
+    color: #fff !important;
+}
+.menu-page, main.menu-page {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+/* Brand font for headings */
+h1, h2, .logo, nav ul li a {
+    font-family: 'Pacifico', cursive !important;
+}
+/* Adjust newsletter heading text */
+.newsletter h2 {
+    content: none;
+}
+
+
+/* Revert to white background theme */
+body {
+    background-color: #fff !important;
+    color: #333 !important;
+}
+header {
+    background-color: #fff !important;
+}
+.menu-page, main.menu-page {
+    background-color: #ffffff !important;
+    color: #333 !important;
+}
+.newsletter, .social-icons {
+    background-color: #fff !important;
+    color: #333 !important;
+}
+nav ul li a {
+    color: #d22 !important;
+}
+/* Preserve brand font and overall layout */
+
+
+/* Ensure social icons are in brand red */
+.social-icons a {
+    color: #d22 !important;
+}
+
+
+/* Make social icons black on white background */
+.social-icons a {
+    color: #000 !important;
+    background-color: #fff !important;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+/* Embedded menu card styling */
+.menu-card {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border: 2px solid #000;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+}
+.menu-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.menu-section ul {
+    list-style: none;
+    padding: 0;
+}
+.menu-section ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.menu-section.drinks h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.no-cash {
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+
+/* Footer layout */
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px;
+}
+.footer-left, .footer-right {
+    font-size: 0.9em;
+    color: #333;
+}
+.site-footer .social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+
+/* Footer cluster centered with matching font */
+.site-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: #fff;
+    padding: 10px 0;
+    font-family: inherit;
+    color: #333;
+}
+.site-footer .social-icons a {
+    color: #000 !important;
+    background: #fff !important;
+    padding: 0; /* remove extra padding */
+}
+.footer-left, .footer-right {
+    margin: 0; /* remove side margins */
+    font-size: 0.9em;
+    color: #333;
+}
+
+
+/* Newsletter form */
+.newsletter {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.newsletter h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+}
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.newsletter input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.newsletter button {
+    padding: 10px 20px;
+    background: #d22;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* Ensure page scrolls far enough to reveal full content */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.menu-card {
+    margin-bottom: 120px; /* space for footer */
+}
+
+
+/* Let about and hours pages auto-size based on content */
+.menu-page.auto-height {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding: 30px;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+/* Ensure .auto-height doesn't stretch too tall */
+.menu-page.auto-height {
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 30px 20px;
+    margin: 40px auto 100px auto;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Make auto-height truly wrap content with no excess white background */
+.menu-page.auto-height {
+    display: inline-block;
+    height: auto !important;
+    min-height: unset !important;
+    padding: 30px 20px;
+    margin: 40px auto 40px auto;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
